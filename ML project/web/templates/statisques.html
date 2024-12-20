@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistiques</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body class="statistiques">
+    
+    <nav class="nav_stat">
+        <ul>
+            <li>
+                <a href="home.html">
+                    <img class="logo" src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo">
+
+                    
+                </a>
+            </li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="predictions.html" target="_blank">Predictions</a></li>
+            <li><a href="statistiques.html">Statistiques</a></li>
+        </ul>
+    </nav>  
+
+    
+    <div class="form_container">
+        <form class="form_name" action="/" method="post">
+            <label for="player_name">Enter Player Name:</label>
+            <input id="player_name" type="text" name="player_name" required>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</body>
+</html>

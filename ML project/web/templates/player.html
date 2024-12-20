@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistiques</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="home.html">
+                        <img class="logo" src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo">
+                    </a>
+                </li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="predictions.html" target="_blank">Predictions</a></li>
+                <li><a href="statistiques.html">Statistiques</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main class="statistiques">
+        
+        <section class="form_container">
+            <div class="form_name">
+                <h1>Statistiques</h1>
+                
+                <img src="{{photo_url}}" alt="Player Image" class="player-image">
+                <p>{{player_name}}</p>
+                <p>{{position}}</p>
+                
+                <p>Last Predictions:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Round</th>
+                            <th>Total Points</th>
+                            <th>Predicted Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for round, total_points, predicted_points in prediction_data %}
+                        <tr>
+                            <td>{{ round }}</td>
+                            <td>{{ total_points }}</td>
+                            <td>{{ predicted_points }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+
+                
+
+                
+                <section class="predictions">
+                    
+                    <section class="next-match">
+                        <p>Do Prediction for the Next Match</p>
+                        <p>{{predection}}</p>
+                    </section>
+
+                    <form action='/predection' method="post">
+                        <input type="hidden" name="player_name" value="{{player_name}}">
+                        <input type="hidden" name="position_player" value="{{position}}">
+                        <input type="hidden" name="player_id" value="{{player_id}}">
+                        <button type="submit">Make Prediction</button>
+                    </form>
+                </section>
+
+                
+                
+
+                
+              
+
+                
+                <section class="player-info">
+                    <p>Predictions for: {{player_name}} ({{position}})</p>
+                </section>
+                <section class="go-back">
+                    <a href="/"><button type="button">Go Back</button></a>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fantasy Football. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

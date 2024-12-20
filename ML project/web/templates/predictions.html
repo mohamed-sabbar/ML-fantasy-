@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Predictions</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="statistiques">    
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="home.html">
+                        <img class="logo" src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo">
+                    </a>
+                </li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="predictions.html" class="active">Predictions</a></li>
+                <li><a href="statistiques.html">Statistiques</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="form_container">
+            <form class="form_name" action="/plot" method="post">
+                <h1>Choose a Position</h1>
+                <label for="position">Choose a position to predict:</label>
+                <select name="position" id="position" required>
+                    <option value="GK">Goalkeeper</option>
+                    <option value="DEF">Defender</option>
+                    <option value="MID">Midfielder</option>
+                    <option value="FWD">Forward</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <section class="stat">
+            
+            
+            {% if plot_url %}
+            
+            <p class="text">Top players predections next match for : {{ position }}</p>
+            <img class="graph_image" src="data:image/png;base64,{{ plot_url }}" alt="Player Predictions Graph">
+                
+            {% endif %}
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Player Predictions. All rights reserved.</p>
+    </footer>
+</body>
+</html>

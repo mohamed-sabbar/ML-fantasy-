@@ -1,0 +1,181 @@
+,season,team,team_name
+0,2016-17,1,Arsenal
+1,2016-17,2,Bournemouth
+2,2016-17,3,Burnley
+3,2016-17,4,Chelsea
+4,2016-17,5,Crystal Palace
+5,2016-17,6,Everton
+6,2016-17,7,Hull
+7,2016-17,8,Leicester
+8,2016-17,9,Liverpool
+9,2016-17,10,Man City
+10,2016-17,11,Man Utd
+11,2016-17,12,Middlesbrough
+12,2016-17,13,Southampton
+13,2016-17,14,Stoke
+14,2016-17,15,Sunderland
+15,2016-17,16,Swansea
+16,2016-17,17,Spurs
+17,2016-17,18,Watford
+18,2016-17,19,West Brom
+19,2016-17,20,West Ham
+20,2017-18,1,Arsenal
+21,2017-18,2,Bournemouth
+22,2017-18,3,Brighton
+23,2017-18,4,Burnley
+24,2017-18,5,Chelsea
+25,2017-18,6,Crystal Palace
+26,2017-18,7,Everton
+27,2017-18,8,Huddersfield
+28,2017-18,9,Leicester
+29,2017-18,10,Liverpool
+30,2017-18,11,Man City
+31,2017-18,12,Man Utd
+32,2017-18,13,Newcastle
+33,2017-18,14,Southampton
+34,2017-18,15,Stoke
+35,2017-18,16,Swansea
+36,2017-18,17,Spurs
+37,2017-18,18,Watford
+38,2017-18,19,West Brom
+39,2017-18,20,West Ham
+40,2018-19,1,Arsenal
+41,2018-19,2,Bournemouth
+42,2018-19,3,Brighton
+43,2018-19,4,Burnley
+44,2018-19,5,Cardiff
+45,2018-19,6,Chelsea
+46,2018-19,7,Crystal Palace
+47,2018-19,8,Everton
+48,2018-19,9,Fulham
+49,2018-19,10,Huddersfield
+50,2018-19,11,Leicester
+51,2018-19,12,Liverpool
+52,2018-19,13,Man City
+53,2018-19,14,Man Utd
+54,2018-19,15,Newcastle
+55,2018-19,16,Southampton
+56,2018-19,17,Spurs
+57,2018-19,18,Watford
+58,2018-19,19,West Ham
+59,2018-19,20,Wolves
+60,2019-20,1,Arsenal
+61,2019-20,2,Aston Villa
+62,2019-20,3,Bournemouth
+63,2019-20,4,Brighton
+64,2019-20,5,Burnley
+65,2019-20,6,Chelsea
+66,2019-20,7,Crystal Palace
+67,2019-20,8,Everton
+68,2019-20,9,Leicester
+69,2019-20,10,Liverpool
+70,2019-20,11,Man City
+71,2019-20,12,Man Utd
+72,2019-20,13,Newcastle
+73,2019-20,14,Norwich
+74,2019-20,15,Sheffield Utd
+75,2019-20,16,Southampton
+76,2019-20,17,Spurs
+77,2019-20,18,Watford
+78,2019-20,19,West Ham
+79,2019-20,20,Wolves
+80,2020-21,1,Arsenal
+81,2020-21,2,Aston Villa
+82,2020-21,3,Brighton
+83,2020-21,4,Burnley
+84,2020-21,5,Chelsea
+85,2020-21,6,Crystal Palace
+86,2020-21,7,Everton
+87,2020-21,8,Fulham
+88,2020-21,9,Leicester
+89,2020-21,10,Leeds
+90,2020-21,11,Liverpool
+91,2020-21,12,Man City
+92,2020-21,13,Man Utd
+93,2020-21,14,Newcastle
+94,2020-21,15,Sheffield Utd
+95,2020-21,16,Southampton
+96,2020-21,17,Spurs
+97,2020-21,18,West Brom
+98,2020-21,19,West Ham
+99,2020-21,20,Wolves
+100,2021-22,1,Arsenal
+101,2021-22,2,Aston Villa
+102,2021-22,3,Brentford
+103,2021-22,4,Brighton
+104,2021-22,5,Burnley
+105,2021-22,6,Chelsea
+106,2021-22,7,Crystal Palace
+107,2021-22,8,Everton
+108,2021-22,9,Leicester
+109,2021-22,10,Leeds
+110,2021-22,11,Liverpool
+111,2021-22,12,Man City
+112,2021-22,13,Man Utd
+113,2021-22,14,Newcastle
+114,2021-22,15,Norwich
+115,2021-22,16,Southampton
+116,2021-22,17,Spurs
+117,2021-22,18,Watford
+118,2021-22,19,West Ham
+119,2021-22,20,Wolves
+120,2022-23,1,Arsenal
+121,2022-23,2,Aston Villa
+122,2022-23,3,Bournemouth
+123,2022-23,4,Brentford
+124,2022-23,5,Brighton
+125,2022-23,6,Chelsea
+126,2022-23,7,Crystal Palace
+127,2022-23,8,Everton
+128,2022-23,9,Fulham
+129,2022-23,10,Leicester
+130,2022-23,11,Leeds
+131,2022-23,12,Liverpool
+132,2022-23,13,Man City
+133,2022-23,14,Man Utd
+134,2022-23,15,Newcastle
+135,2022-23,16,Nott'm Forest
+136,2022-23,17,Southampton
+137,2022-23,18,Spurs
+138,2022-23,19,West Ham
+139,2022-23,20,Wolves
+140,2023-24,1,Arsenal
+141,2023-24,2,Aston Villa
+142,2023-24,3,Bournemouth
+143,2023-24,4,Brentford
+144,2023-24,5,Brighton
+145,2023-24,6,Burnley
+146,2023-24,7,Chelsea
+147,2023-24,8,Crystal Palace
+148,2023-24,9,Everton
+149,2023-24,10,Fulham
+150,2023-24,11,Liverpool
+151,2023-24,12,Luton
+152,2023-24,13,Man City
+153,2023-24,14,Man Utd
+154,2023-24,15,Newcastle
+155,2023-24,16,Nott'm Forest
+156,2023-24,17,Sheffield Utd
+157,2023-24,18,Spurs
+158,2023-24,19,West Ham
+159,2023-24,20,Wolves
+160,2024-25,1,Arsenal
+161,2024-25,2,Aston Villa
+162,2024-25,3,Bournemouth
+163,2024-25,4,Brentford
+164,2024-25,5,Brighton
+165,2024-25,6,Chelsea
+166,2024-25,7,Crystal Palace
+167,2024-25,8,Everton
+168,2024-25,9,Fulham
+169,2024-25,10,Ipswich
+170,2024-25,11,Leicester
+171,2024-25,12,Liverpool
+172,2024-25,13,Man City
+173,2024-25,14,Man Utd
+174,2024-25,15,Newcastle
+175,2024-25,16,Nott'm Forest
+176,2024-25,17,Southampton
+177,2024-25,18,Spurs
+178,2024-25,19,West Ham
+179,2024-25,20,Wolves
